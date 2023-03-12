@@ -19,7 +19,7 @@
 		"body_y":[0.3, -0.9]
 	},
 	"motions":{
-		"":[
+		"tap_body":[
 			{"file":"motions/I_ANGRY.mtn"},
 			{"file":"motions/I_ANGRY_S.mtn"},
 			{"file":"motions/I_ANGRY_W.mtn"},
@@ -29,16 +29,15 @@
 			{"file":"motions/I_SAD.mtn"},
 			{"file":"motions/I_SAD_S.mtn"},
 			{"file":"motions/I_SAD_W.mtn"},
+			{"file":"motions/REPEAT_01.mtn"},
 			{"file":"motions/I_SURPRISE.mtn"},
 			{"file":"motions/I_SURPRISE_S.mtn"},
-			{"file":"motions/I_SURPRISE_W.mtn"},
-			{"file":"motions/IDLING_01.mtn"},
-			{"file":"motions/IDLING_02.mtn"},
-			{"file":"motions/IDLING_03.mtn"},
-			{"file":"motions/REPEAT_01.mtn"}
+			{"file":"motions/I_SURPRISE_W.mtn"}
 		],
 		"idle":[
-			{"file":"motions/IDLING_01.mtn"}
+			{"file":"motions/IDLING_01.mtn"},
+			{"file":"motions/IDLING_02.mtn"},
+			{"file":"motions/IDLING_03.mtn"}
 		]
 	},
 	"physics":"katou_01.physics.json",
