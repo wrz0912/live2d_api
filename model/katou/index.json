@@ -3,7 +3,6 @@
 	"model":"katou.moc",
 	"textures":[
 		"textures/00.png"
-		
 	],
 	"physics":"katou_01.physics.json",
 	"pose":"katou_01.pose.json",
@@ -12,7 +11,7 @@
 		"center_y": -0.16,
 		"width": 1.8,
 		"height": 2.5
-	}
+	},
 	"expressions":[
 		{"name":"F_ANGRY","file":"exp/F_ANGRY.exp.json"},
 		{"name":"F_DOWN","file":"exp/F_DOWN.exp.json"},
