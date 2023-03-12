@@ -48,7 +48,7 @@
 		"flick_head":[
 			{"file":"motions/I_SURPRISE.mtn"},
 			{"file":"motions/I_SURPRISE_S.mtn"},
-			{"file":"motions/I_SURPRISE_W.mtn"},
+			{"file":"motions/I_SURPRISE_W.mtn"}
 		],
 		"idle":[
 			{"file":"motions/IDLING_01.mtn"},
