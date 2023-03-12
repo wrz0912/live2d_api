@@ -1,0 +1,67 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"katou.moc",
+	"textures":[
+		"textures/00.png"
+		
+	],
+	"expressions":[
+		{"name":"F_ANGRY","file":"exp/F_ANGRY.exp.json"},
+		{"name":"F_DOWN","file":"exp/F_DOWN.exp.json"},
+		{"name":"F_FUN","file":"exp/F_FUN.exp.json"},
+		{"name":"F_NOMAL","file":"exp/F_NOMAL.exp.json"},
+		{"name":"F_SAD","file":"exp/F_SAD.exp.json"},
+		{"name":"F_SURPRISE","file":"exp/F_SURPRISE.exp.json"}
+	],
+	"hit_areas_custom": {
+		"head_x": [
+			-0.35,
+			0.6
+		],
+		"head_y": [
+			0.19,
+			-0.2
+		],
+		"body_x": [
+			-0.3,
+			-0.25
+		],
+		"body_y": [
+			0.3,
+			-0.9
+		]
+	},
+	"motions":{
+		"tap_body":[
+			{"file":"motions/I_ANGRY.mtn"},
+			{"file":"motions/I_ANGRY_S.mtn"},
+			{"file":"motions/I_ANGRY_W.mtn"},
+			{"file":"motions/I_FUN.mtn"},
+			{"file":"motions/I_FUN_S.mtn"},
+			{"file":"motions/I_FUN_W.mtn"},
+			{"file":"motions/I_SAD.mtn"},
+			{"file":"motions/I_SAD_S.mtn"},
+			{"file":"motions/I_SAD_W.mtn"},
+					
+			{"file":"motions/REPEAT_01.mtn"}
+		],
+		"flick_head":[
+			{"file":"motions/I_SURPRISE.mtn"},
+			{"file":"motions/I_SURPRISE_S.mtn"},
+			{"file":"motions/I_SURPRISE_W.mtn"},
+		],
+		"idle":[
+			{"file":"motions/IDLING_01.mtn"},
+			{"file":"motions/IDLING_02.mtn"},
+			{"file":"motions/IDLING_03.mtn"}
+		]
+	},
+	"physics":"katou_01.physics.json",
+	"pose":"katou_01.pose.json",
+	"layout":{
+		"center_x": 0,
+		"center_y": -0.16,
+		"width": 1.8,
+		"height": 2.5
+	}
+}
