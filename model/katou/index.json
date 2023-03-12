@@ -30,9 +30,6 @@
 		"tap_body":[
 			{"file":"motions/I_ANGRY.mtn"}
 		],
-		"flick_head":[
-			{"file":"motions/I_SURPRISE.mtn"}
-		],
 		"idle":[
 			{"file":"motions/IDLING_01.mtn"},
 		]
